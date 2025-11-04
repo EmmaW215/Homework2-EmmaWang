@@ -1,0 +1,82 @@
+[
+  {
+    "id": "talk_01",
+    "url": "https://www.youtube.com/watch?v=EXAMPLE_ID_1",
+    "title": "Attention Is All You Need - Paper Presentation",
+    "conference": "NeurIPS 2017",
+    "speaker": "Example Speaker",
+    "topic": "Transformers"
+  },
+  {
+    "id": "talk_02",
+    "url": "https://www.youtube.com/watch?v=EXAMPLE_ID_2",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers",
+    "conference": "NAACL 2019",
+    "speaker": "Example Speaker",
+    "topic": "Language Models"
+  },
+  {
+    "id": "talk_03",
+    "url": "https://www.youtube.com/watch?v=EXAMPLE_ID_3",
+    "title": "GPT-3 and Few-Shot Learning",
+    "conference": "ACL 2020",
+    "speaker": "Example Speaker",
+    "topic": "Large Language Models"
+  },
+  {
+    "id": "talk_04",
+    "url": "https://www.youtube.com/watch?v=EXAMPLE_ID_4",
+    "title": "Neural Machine Translation",
+    "conference": "EMNLP 2021",
+    "speaker": "Example Speaker",
+    "topic": "Translation"
+  },
+  {
+    "id": "talk_05",
+    "url": "https://www.youtube.com/watch?v=EXAMPLE_ID_5",
+    "title": "Question Answering with Transformers",
+    "conference": "ACL 2022",
+    "speaker": "Example Speaker",
+    "topic": "QA Systems"
+  },
+  {
+    "id": "talk_06",
+    "url": "https://www.youtube.com/watch?v=EXAMPLE_ID_6",
+    "title": "Named Entity Recognition Advances",
+    "conference": "COLING 2022",
+    "speaker": "Example Speaker",
+    "topic": "NER"
+  },
+  {
+    "id": "talk_07",
+    "url": "https://www.youtube.com/watch?v=EXAMPLE_ID_7",
+    "title": "Sentiment Analysis with Deep Learning",
+    "conference": "EMNLP 2023",
+    "speaker": "Example Speaker",
+    "topic": "Sentiment Analysis"
+  },
+  {
+    "id": "talk_08",
+    "url": "https://www.youtube.com/watch?v=EXAMPLE_ID_8",
+    "title": "Text Summarization Techniques",
+    "conference": "ACL 2023",
+    "speaker": "Example Speaker",
+    "topic": "Summarization"
+  },
+  {
+    "id": "talk_09",
+    "url": "https://www.youtube.com/watch?v=EXAMPLE_ID_9",
+    "title": "Multimodal Learning for NLP",
+    "conference": "NeurIPS 2023",
+    "speaker": "Example Speaker",
+    "topic": "Multimodal"
+  },
+  {
+    "id": "talk_10",
+    "url": "https://www.youtube.com/watch?v=EXAMPLE_ID_10",
+    "title": "Retrieval-Augmented Generation",
+    "conference": "ACL 2024",
+    "speaker": "Example Speaker",
+    "topic": "RAG"
+  }
+]

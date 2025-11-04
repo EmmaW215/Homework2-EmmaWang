@@ -1,0 +1,73 @@
+2025-11-03 18:20:29,692 - INFO - Downloading NLTK punkt tokenizer...
+2025-11-03 18:20:32,856 - INFO - ================================================================================
+2025-11-03 18:20:32,857 - INFO - Starting Task #4: Data Cleaning & Deduplication
+2025-11-03 18:20:32,857 - INFO - ================================================================================
+2025-11-03 18:20:32,857 - INFO - Total documents loaded: 0
+2025-11-03 18:20:32,857 - ERROR - No documents loaded! Check your input paths.
+2025-11-03 18:21:28,646 - INFO - ================================================================================
+2025-11-03 18:21:28,646 - INFO - Starting Task #4: Data Cleaning & Deduplication
+2025-11-03 18:21:28,646 - INFO - ================================================================================
+2025-11-03 18:21:28,646 - INFO - Total documents loaded: 0
+2025-11-03 18:21:28,646 - ERROR - No documents loaded! Check your input paths.
+2025-11-03 18:49:20,877 - INFO - ================================================================================
+2025-11-03 18:49:20,878 - INFO - Starting Task #4: Data Cleaning & Deduplication
+2025-11-03 18:49:20,878 - INFO - ================================================================================
+2025-11-03 18:49:20,878 - INFO - Loading Task #1 data from ../arxiv_scraper_project/data/json/arxiv_clean.json
+2025-11-03 18:49:20,879 - ERROR - Error loading Task #1: 'str' object has no attribute 'get'
+2025-11-03 18:49:20,879 - INFO - Loading Task #2 data from ../pdf_text_OCR/pdf_ocr
+2025-11-03 18:49:21,001 - INFO - Loaded 199 documents from Task #2
+2025-11-03 18:49:21,005 - INFO - Loading Task #3 data from ../asr_whisper/asr_whisper/transcripts/talks_transcripts.jsonl
+2025-11-03 18:49:21,006 - INFO - Loaded 1 documents from Task #3
+2025-11-03 18:49:21,006 - INFO - Total documents loaded: 200
+2025-11-03 18:49:21,103 - INFO - Filtering documents by language: en
+2025-11-03 18:49:21,489 - INFO - Documents after language filter: 199/200
+2025-11-03 18:49:21,489 - INFO - Removing HTML tags and entities
+2025-11-03 18:49:21,895 - INFO - HTML cleaning complete: 199 documents
+2025-11-03 18:49:21,895 - INFO - Deduplicating documents with MinHash LSH (threshold=0.7)
+2025-11-03 18:49:27,153 - INFO - Documents after deduplication: 199/199
+2025-11-03 18:49:27,154 - INFO - Removing PII (emails, phones, URLs, etc.)
+2025-11-03 18:49:27,940 - INFO - PII removal complete: 199 documents
+2025-11-03 18:49:27,940 - INFO - Filtering by n-gram repetition (threshold=0.3)
+2025-11-03 18:49:28,151 - INFO - Documents after n-gram filter: 199/199
+2025-11-03 18:49:28,151 - INFO - Saving clean corpus to cleaned_data/clean_corpus.txt
+2025-11-03 18:49:28,244 - INFO - Clean corpus saved: 199 documents
+2025-11-03 18:49:28,244 - INFO - Saving statistics to cleaned_data/stats.md
+2025-11-03 18:49:28,244 - INFO - Statistics saved
+2025-11-03 18:49:28,244 - INFO - ================================================================================
+2025-11-03 18:49:28,244 - INFO - Task #4 Complete!
+2025-11-03 18:49:28,244 - INFO - ================================================================================
+2025-11-03 18:49:28,244 - INFO - Clean corpus saved to: cleaned_data/clean_corpus.txt
+2025-11-03 18:49:28,244 - INFO - Statistics saved to: cleaned_data/stats.md
+2025-11-03 18:49:28,244 - INFO - Final document count: 199
+2025-11-03 18:49:28,244 - INFO - Data removed: 6.96%
+2025-11-03 18:52:00,443 - INFO - ================================================================================
+2025-11-03 18:52:00,444 - INFO - Starting Task #4: Data Cleaning & Deduplication
+2025-11-03 18:52:00,444 - INFO - ================================================================================
+2025-11-03 18:52:00,444 - INFO - Loading Task #1 data from ../arxiv_scraper_project/data/json/arxiv_clean.json
+2025-11-03 18:52:00,445 - ERROR - Error loading Task #1: 'str' object has no attribute 'get'
+2025-11-03 18:52:00,445 - INFO - Loading Task #2 data from ../pdf_text_OCR/pdf_ocr
+2025-11-03 18:52:00,487 - INFO - Loaded 199 documents from Task #2
+2025-11-03 18:52:00,487 - INFO - Loading Task #3 data from ../asr_whisper/asr_whisper/transcripts/talks_transcripts.jsonl
+2025-11-03 18:52:00,487 - INFO - Loaded 1 documents from Task #3
+2025-11-03 18:52:00,487 - INFO - Total documents loaded: 200
+2025-11-03 18:52:00,583 - INFO - Filtering documents by language: en
+2025-11-03 18:52:00,950 - INFO - Documents after language filter: 198/200
+2025-11-03 18:52:00,950 - INFO - Removing HTML tags and entities
+2025-11-03 18:52:01,345 - INFO - HTML cleaning complete: 198 documents
+2025-11-03 18:52:01,345 - INFO - Deduplicating documents with MinHash LSH (threshold=0.7)
+2025-11-03 18:52:06,333 - INFO - Documents after deduplication: 198/198
+2025-11-03 18:52:06,333 - INFO - Removing PII (emails, phones, URLs, etc.)
+2025-11-03 18:52:07,063 - INFO - PII removal complete: 198 documents
+2025-11-03 18:52:07,063 - INFO - Filtering by n-gram repetition (threshold=0.3)
+2025-11-03 18:52:07,271 - INFO - Documents after n-gram filter: 198/198
+2025-11-03 18:52:07,271 - INFO - Saving clean corpus to cleaned_data/clean_corpus.txt
+2025-11-03 18:52:07,365 - INFO - Clean corpus saved: 198 documents
+2025-11-03 18:52:07,365 - INFO - Saving statistics to cleaned_data/stats.md
+2025-11-03 18:52:07,365 - INFO - Statistics saved
+2025-11-03 18:52:07,366 - INFO - ================================================================================
+2025-11-03 18:52:07,366 - INFO - Task #4 Complete!
+2025-11-03 18:52:07,366 - INFO - ================================================================================
+2025-11-03 18:52:07,366 - INFO - Clean corpus saved to: cleaned_data/clean_corpus.txt
+2025-11-03 18:52:07,366 - INFO - Statistics saved to: cleaned_data/stats.md
+2025-11-03 18:52:07,366 - INFO - Final document count: 198
+2025-11-03 18:52:07,366 - INFO - Data removed: 7.23%
